@@ -74,7 +74,7 @@
 				<input class="Btn" type="submit" value="정보 수정">
 				<input class="Btn" type="button" value="비밀번호 수정" onclick="location.href='updatePwdForm.me'">
 				<input class="Btn" type="button" value="탈퇴하기" onclick="deleteMember(); ">
-				<input type="button" class="Btn" onclick="location.href='<%= request.getContextPath() %>'" value="메인 이동">
+				<input type="button" class="Btn" onclick="location.href='<%= request.getContextPath() %>/'" value="메인 이동">
 			</div>
 		</form>
 

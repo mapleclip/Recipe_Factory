@@ -37,7 +37,7 @@ public class MemberDeleteServlet extends HttpServlet {
 
 		if(result > 0) {
 			request.getSession().invalidate();
-			response.sendRedirect(request.getContextPath());
+			response.sendRedirect(request.getContextPath() + "/");
 		} else {
 			request.setAttribute("msg", "회원 탈퇴에 실패하였습니다.");
 			request.getRequestDispatcher("WEB-INF/views/common/errorPage.jsp").forward(request, response);

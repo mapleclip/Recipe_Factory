@@ -34,13 +34,6 @@ public class CheckEmailServlet extends HttpServlet {
 		String userEmail = request.getParameter("inputEmail");
 		int result = new MemberService().checkEail(userEmail);
 		
-		//회원가입 29.
-//		request.setAttribute("result", result);
-//		request.setAttribute("checkedEmail", userEmail);
-		
-//		RequestDispatcher view = request.getRequestDispatcher("WEB-INF/views/member/checkEmailForm.jsp");
-//		view.forward(request, response);
-		
 		PrintWriter out = response.getWriter();
 		if(result > 0) {
 			out.print("fail");
