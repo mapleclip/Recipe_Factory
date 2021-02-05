@@ -155,14 +155,14 @@
 			<br>
 			<div class="btnArea" align="center">
 				<input type="submit" id="insertBtn" value="작성완료">
-				<input type="button" id="cancelBtn" onclick="location.href='<%= request.getContextPath() %>/list.memberR'" value="취소하기">
+				<input type="button" id="cancelBtn" onclick="location.href='<%= request.getContextPath() %>/main.ad'" value="취소하기">
 			</div>
 		</form>
 	</div>
 	
 		<script>
 		function goHome(){
-			location.href='<%= request.getContextPath() %>';
+			location.href='<%= request.getContextPath() %>/';
 		}
 		
 		function memberInfo(){

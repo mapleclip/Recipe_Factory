@@ -185,7 +185,7 @@ button:focus {
 		<div class="top_banner"></div>
 		<div class="frame top_area">
 			<div class="top_logo_area">
-				<a href="<%= request.getContextPath() %>">
+				<a href="<%= request.getContextPath() %>/">
 					<img id="top_logo" src="./images/logo1.png">
 				</a>
 			</div>

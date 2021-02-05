@@ -147,7 +147,7 @@
 	
 	<script>
 		function goHome(){
-			location.href='<%= request.getContextPath() %>';
+			location.href='<%= request.getContextPath() %>/';
 		}
 		
 		function memberInfo(){
