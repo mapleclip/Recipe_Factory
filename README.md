@@ -1,3 +1,3 @@
 # Recipe_Factory
 
-<a>semi.justitia.me</a>
+https://semi.justitia.me
